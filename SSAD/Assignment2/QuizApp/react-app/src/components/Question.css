@@ -1,0 +1,28 @@
+
+.main{
+    display: table;
+    width: 100%;
+}
+.abc{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#image {
+    max-width:50%;
+    max-height: 80%;
+}
+#question {
+    width: 50%;
+}
+
+.img-fluid{
+    max-height: 80%;
+    width: auto;
+}
+body{
+    display: inline;
+  }

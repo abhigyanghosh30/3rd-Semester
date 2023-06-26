@@ -1,0 +1,26 @@
+-- 1.
+match (p:Person) where (p)-[]->()<-[]-({name:"Tom Cruise"}) or (p)-[]->()<-[]-({name:"Tom Hanks"}) 
+or p.name="Tom Hanks" or p.name="Tom Cruise" 
+set p.type="A-List"
+
+
+
+-- 2. 
+for $i in doc("Movies.xml")//movie
+return if(substring($i/@title,1,3)='The')
+then 
+if($i//imdbRating>7)
+then
+<good> {$i/@title} </good> 
+else <bad> {$i/@title} </bad>
+else
+<bad> {$i/@title} </bad>
+
+--3. 
+http://localhost:8983/solr/films/select?q=initial_release_date:[*%20TO%20*]&sort=initial_release_date%20asc
+http://localhost:8983/solr/films/select?q=initial_release_date:[2000-01-02T00:00:00Z%20TO%202000-12-31T00:00:00Z]
+
+--4.
+match (a1:Person)-[:ACTED_IN]->(m)<-[:ACTED_IN]-(a2:Person),(m1)<-[:DIRECTED]-(d) where NOT (a1)-[:ACTED_IN]->()<-[:DIRECTED]-(d) and NOT (a2)-[:ACTED_IN]->()<-[:DIRECTED]-(d) 
+return count(m1) as c1,count(m) as c2,a1,a2,d order by c1,c2'
+:?

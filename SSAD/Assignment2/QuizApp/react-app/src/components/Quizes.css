@@ -1,0 +1,9 @@
+.row{
+    display:table;
+    width:100%;
+}
+.cell{
+    display: table-cell;
+    vertical-align: middle;
+    height: 25vh;   
+}

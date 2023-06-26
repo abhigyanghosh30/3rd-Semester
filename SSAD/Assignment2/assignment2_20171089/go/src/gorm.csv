@@ -1,0 +1,11 @@
+question_id,image,question,quiz,genre,option_a,option_b,option_c,option_d,a_correct,b_correct,c_correct,d_correct
+1,images/Tagore.jpg,Which among the following is not a work of Rabindranath Tagore?,Elementary Books,Books,Chitra,Kapala Kundala,The Court Dancer,Chithrangada,false,true,false,false
+2,images/colorado.jpg,Which river flows through the Grand Canyon,Elementary Geography,Geography,Rio Grande,Mississippi River,Missouri River,Colorado River,false,false,false,true
+3,images/SA.jpg,What is/are the captial(s) od South Africa,Elementary Geography,Geography,Cape Town,Pretoria,Bloemfontein,Johannesburg,true,true,true,false
+4,images/CTlSHdBLEoWl.jpg,Guess the famous book cover,Advanced Books,Books,Charlotte's Web,A Wrinkle In Time,Tuck Everlasting,Madeline,1,0,0,0
+6,images/war-and-peace.jpg,How long did it take Leo Tolstoy to write War and Peace,Advanced Books,Books,9 years,7 years,6 years,4 years,0,0,1,0
+7,images/Geoffrey-Chaucer-007.jpg,Who is the father of English Poetry? (Hint: Look at the image above),Elementary Books,Books,Milton,Wordsworth,Chaucer,Charles Dickens,0,0,1,0
+8,images/34-3cm-Oscar-Awards-Trophy-Replica-Academy-Award-Oscar-Statue-Gold-Zinc.jpg,Which movie has won the highest number of Oscars?,Elementary Movies,Movies,Titanic (1997),The Lord of the Rings: The Return of the King (2003),Ben-Hur (1959),West Side Story (1961),1,1,1,0
+9,images/image.JPG,Highest Grossing Movie of all times is,Elementary Movies,Movies,Titanic,Avatar,Avengers: Infinity War,Star Wars: The Force Awakens,0,1,0,0
+10,images/alpacino.jpg,"This classic film followed the story of the Corleone Family, and its success spawned two sequels. Among its star-studded cast members were Marlon Brando, Diane Keaton, Al Pacino and James Caan.",Advanced Movies,Movies,Goodfellas,The Godfather,Casino,American Gangster,0,1,0,0
+11,images/The-Bourne-Identity-posteredited-mm33v1mfzjeabwvit0vi6723el9zmnulof5cetuh2w.jpg,Which Oscar-winning movie star is the lead actor in the Jason Bourne Action movie Series,Advanced Movies,Movies,Ben Affleck,Matt Damon,Leonardo DiCaprio,Nicolas Cage,0,1,0,0

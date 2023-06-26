@@ -1,0 +1,13 @@
+.row-add-user{
+    display: table;
+    height: 50vh;
+    line-height:5vh;
+    margin-top: 20vh;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.col-add-user {
+    display: table-cell;
+    width:50vw;
+    height:50vh;
+}
